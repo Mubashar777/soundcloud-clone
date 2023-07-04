@@ -26,6 +26,10 @@ body{
 
 }
 
+
+
+
+
 .btn-brand{
     background-color: orangered;
     color: white;
@@ -115,23 +119,7 @@ body{
     font-size: 1rem;
 border: none;
     outline: none;
-    &:focus{
-     
-      transition: 0.35s ease;
-    
-      &::-webkit-input-placeholder{
-        transition: opacity 0.45s ease; 
-          opacity: 0;
-       }
-      &::-moz-placeholder {
-        transition: opacity 0.45s ease; 
-          opacity: 0;
-       }
-      &:-ms-placeholder {
-       transition: opacity 0.45s ease; 
-         opacity: 0;
-       }    
-     }
+   
    }
 
 
@@ -171,6 +159,7 @@ border: none;
     padding-bottom: 10px;
    margin-top: 40px;
     margin-left: 15px;
+    border-radius: 0;
 
   }
 
@@ -183,11 +172,20 @@ border: none;
     padding-bottom: 10px;
    margin-top: 40px;
     margin-left: 15px;
+    border-radius: 0;
 
   }
 
   .upload-your-own{
     margin-top: 10px;
+  }
+
+  .cammunity-text{
+    margin-top: -45px;
+    color: rgba(0, 0, 0, 0.822);
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    font-size: 25px;
   }
   
   
