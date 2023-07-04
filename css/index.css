@@ -188,5 +188,26 @@ border: none;
     font-size: 25px;
   }
   
+
+
+
+  .audio-container {
+    display: block;
+    align-items: center;
+  }
+  
+  .audio-container img {
+    /* Set the width of the thumbnail image */
+    margin-left: 15px; /* Adjust the spacing between the thumbnail and the audio player */
+  }
+
+.audio-control audio{
+    width: 300px;
+    margin-left: 15px;
+    position: relative;
+   border-radius: 0;
+  
+}
+  
   
   
