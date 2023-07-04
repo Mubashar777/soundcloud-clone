@@ -190,9 +190,15 @@ border: none;
   
 
 
+  .audio-tracks{
+    display: flex;
+   
+  }
+
+
 
   .audio-container {
-    display: block;
+   
     align-items: center;
   }
   
@@ -204,7 +210,7 @@ border: none;
 .audio-control audio{
     width: 300px;
     margin-left: 15px;
-    position: relative;
+    
    border-radius: 0;
   
 }
