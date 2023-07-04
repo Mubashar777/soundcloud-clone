@@ -284,12 +284,59 @@ margin-top: 40px;
 
 .section-4{
     background-color: black;
-    height: 70vh;
+    height: 55vh;
+    width: 93%;
+    margin-left: 3rem;
+}
+
+.calling-creators{
+   padding-top: 70px;
+    margin-left: 70px;
+}
+
+.calling-creators h2{
+    letter-spacing: 1px;
+    font-weight: 600;
+   
+}
+
+.calling-creators p{
+    padding-top: 10px;
+    font-size: 22px;
+}
+
+.calling-creators button{
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 0;
+}
+
+.section-4-d{
+    display: flex;
+}
+
+.sidhu-pic img{
+    height: 300px;
+    width: auto;
+    margin-left: 200px;
+    margin-top: 38px;
+}
+
+
+.section-5{
+    background-color: white;
+    height: 100vh;
     width: 93%;
     margin-left: 3rem;
 }
 
 
+.sidhu-text h3{
+    letter-spacing: 2px;
+    color: orangered;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 70px;
+}
 
   
   
