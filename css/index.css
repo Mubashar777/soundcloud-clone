@@ -690,7 +690,7 @@ cursor: pointer;
     }
 
     .calling-creators {
-        margin-left: 0;
+        margin-left: 15px;
         padding-top: 30px;
     }
 
@@ -727,6 +727,12 @@ cursor: pointer;
         margin-left: 0;
         height: auto;
         width: 100%;
+
+    
+    }
+    .sidhu-text h3{
+        font-size: 14px;
+       margin-right: 45px;
     }
 }
 
