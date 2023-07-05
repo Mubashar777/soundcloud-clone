@@ -223,6 +223,20 @@ border: none;
     display: flex;
 }
 
+.audio-container-2 img{
+    width: 290px;
+    height: 290px;
+    /* Set the width of the thumbnail image */
+    margin-left: 19px; /* Adjust the spacing between the thumbnail and the audio player */
+}
+
+
+.audio-control-2 audio{
+    width: 290px;
+    height: 30px;
+    margin-left: 15px;
+  border-radius: 0%;
+}
 
 .btn-brand-5{
     background-color: orangered;
@@ -463,7 +477,7 @@ cursor: pointer;
 @media (max-width: 576px) {
     /* Styles for extra small devices */
     .background-image {
-        height: 100vh;
+        height: 70vh;
         width: 100%;
         margin-left: 0;
     }
@@ -473,27 +487,10 @@ cursor: pointer;
 /* Styles for extra small devices */
 @media (max-width: 575px) {
     .navbar {
-      margin-top: 0; /* Reset the margin-top */
+      margin-top: -25px; /* Reset the margin-top */
     }
   
-    .nav-link,
-    .btn-brand,
-    .button-brand {
-      color: black; /* Change the text color to black */
-    }
-  
-    .btn-brand,
-    .button-brand {
-      background-color: transparent; /* Make the buttons transparent */
-      margin-right: 0; /* Reset the margin-right */
-    }
-  
-    .btn-brand:hover,
-    .button-brand:hover {
-      background-color: orangered; /* Change the background color on hover */
-      color: white; /* Change the text color on hover */
-    }
-  }
+   
   
 
 
@@ -524,6 +521,7 @@ cursor: pointer;
     }
 
     .search-container {
+        height: auto;
         width: 100%;
         margin-left: 0;
         padding-top: 20px;
@@ -532,28 +530,41 @@ cursor: pointer;
 
 @media screen and (max-width: 480px) {
     input#search-bar {
-        font-size: 0.8rem;
-        height: 40px;
+        font-size: 0.4rem;
+        height: 20px;
+        margin-left: 10px;
+      
        
     }
 
     .search-icon {
         width: 40px;
         height: 40px;
-        top: -35px;
+        top: -30px;
         right: -20px;
-        margin-right: 15px;
+        margin-right: 11px;
+    }
+
+    .or{
+        font-size: 12px;
+        margin-top: 26px;
+        margin-right: 0px;
     }
 
     .btn-brand-4 {
-        margin-top: 10px;
-        margin-left: 5px;
+        margin-top: 13px;
+        margin-right: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        padding-bottom:0px;
+        font-size: 8px;
     }
 }
 
 @media (max-width: 576px) {
     .cammunity-text {
-      font-size: 18px;
+      font-size: 16px;
       margin-top: -30px;
     }
   }
@@ -561,36 +572,71 @@ cursor: pointer;
 
   @media only screen and (max-width: 480px) {
    
-    .audio-tracks {
+    .audio-tracks{
         display: flex;
       flex-wrap: wrap;
       justify-content: center;
     }
+
+    .audio-tracks-2{
+       
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .audio-control audio{
+        width: 100%;
+        height: 30px;
+        margin-left: 0;
+      }
   
     .audio-container {
       margin-bottom: 10px;
     }
   
-    .audio-container img {
+    .audio-container img{
       width: 100%;
       height: auto;
       margin-left: 0;
     }
   
-    .audio-control audio {
+    .audio-control audio{
       width: 100%;
       height: 30px;
       margin-left: 0;
+    }
+
+    .audio-container-2 img{
+        width: 100%;
+        height: auto;
+        margin-left: 45px;
+    }
+    
+    
+    .audio-control-2 audio{
+        width: 100%;
+        height: 30px;
+        margin-left:45px;
     }
   }
 
 
   @media only screen and (max-width: 480px) {
+
+    .btn-brand-5{
+        margin-top: 20px;
+        font-size: 14px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 10px;
+    }
+
     .btn-brand-5:hover {
       margin-top: 20px;
       font-size: 14px;
       padding-left: 30px;
       padding-right: 30px;
+      margin-bottom: 10px;
     }
   }
 
@@ -607,7 +653,9 @@ cursor: pointer;
     .mobile-image {
       margin-left: 0;
       margin-top: 20px;
-      max-width: 100%;
+   
+      width: auto;
+
     }
   }
 
@@ -636,8 +684,8 @@ cursor: pointer;
     .section-4 {
         height: auto;
         width: 100%;
-        margin: 0 auto;
-        padding: 20px;
+       margin-top: 10px;
+       margin: 10px auto;
     }
 
     .calling-creators {
@@ -685,7 +733,7 @@ cursor: pointer;
 @media only screen and (max-width: 480px) {
     .section-5 {
         height: auto;
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
         padding: 20px;
     }
@@ -717,29 +765,30 @@ cursor: pointer;
 }
 
 
+/* Responsive styles for extra small devices */
 @media only screen and (max-width: 480px) {
     .footer-p-first,
     .footer-p {
         margin-top: 10px;
         margin-left: 0;
         font-size: 12px;
+      
     }
 
-    .footer-p-first:hover,
-    .footer-p:hover {
-        color: black;
+    .footer-paragraph {
+        display: flex;
+
+        flex-direction:column;
+        align-items: center;
     }
 
     .language {
-        margin-top: 0;
+        margin-top: 5px;
+    text-align: center;
     }
 
     .language p,
     .language span {
         font-size: 12px;
-    }
-
-    .language span:hover {
-        color: black;
     }
 }
