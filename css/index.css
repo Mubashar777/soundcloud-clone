@@ -477,6 +477,7 @@ cursor: pointer;
 @media (max-width: 576px) {
     /* Styles for extra small devices */
     .background-image {
+        background: url('/assets/hero_image.jpg');
         height: 70vh;
         width: 100%;
         margin-left: 0;
