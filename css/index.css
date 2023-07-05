@@ -322,15 +322,6 @@ margin-top: 40px;
     margin-top: 38px;
 }
 
-
-.section-5{
-    background-color: white;
-    height: 100vh;
-    width: 93%;
-    margin-left: 3rem;
-}
-
-
 .sidhu-text h3{
     letter-spacing: 2px;
     color: orangered;
@@ -338,6 +329,417 @@ margin-top: 40px;
     padding-top: 70px;
 }
 
+
+.section-5{
+    background-color: white;
+    height: 90vh;
+    width: 93%;
+    margin-left: 3rem;
+}
+
+
+
+
+.Thanks-for-listing h2{
+    letter-spacing: 1px;
+    font-weight: 400;
+  padding-top: 40px;
+}
+
+
+.save-tracks{
+    font-size: 25px;
+}
+
+
+.alread-account{
+    display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+  .alread-account p{
+    font-size: 12px;
+    margin-top: 5px;
+  }
+
+  .alread-account button {
+    background-color:transparent;
+   border: 1px solid rgba(0, 0, 0, 0.158);
+   margin-left: 15px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+  }
+
+  .alread-account button a{
+    color: rgba(0, 0, 0, 0.699);
+    text-decoration: none;
+  }
   
+
+.fline{
+    margin-top: 100px;
+    width: 100%;
+    height: 1px;
+    background-color:  rgba(0, 0, 0, 0.089);
+}
+
+.footer-p-first{
+    margin-top: 20px;
+margin-left: 25px;
+    font-size: 14px;
+ color: rgba(0, 0, 0, 0.363);
+ cursor: pointer;
+
+}
+
+.footer-p-first:hover{
+    margin-top: 20px;
+margin-left: 25px;
+    font-size: 14px;
+ color: rgb(0, 0, 0);
+ cursor: pointer;
+
+}
+
+.footer-p{
+    margin-top: 20px;
+
+    font-size: 14px;
+ color: rgba(0, 0, 0, 0.363);
+ cursor: pointer;
+}
+
+.footer-p:hover{
+    margin-top: 20px;
+   
+    font-size: 14px;
+ color: black;
+ cursor: pointer;
+}
   
+
+.footer-paragraph{
+    display: flex;
+}
+
+
+.language{
+    margin-left: 25px;
+    margin-top: -10px;
+}
+
+.language p{
+font-size: 14px;
+cursor: pointer;
+}
+
+.language span{
+    font-size: 14PX;
+    color: #38d;
+}
+
+.language span:hover{
+    font-size: 14PX;
+    color:black;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+    /* Styles for extra small devices */
+    .background-image {
+        height: 100vh;
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+
+/* Styles for extra small devices */
+@media (max-width: 575px) {
+    .navbar {
+      margin-top: 0; /* Reset the margin-top */
+    }
   
+    .nav-link,
+    .btn-brand,
+    .button-brand {
+      color: black; /* Change the text color to black */
+    }
+  
+    .btn-brand,
+    .button-brand {
+      background-color: transparent; /* Make the buttons transparent */
+      margin-right: 0; /* Reset the margin-right */
+    }
+  
+    .btn-brand:hover,
+    .button-brand:hover {
+      background-color: orangered; /* Change the background color on hover */
+      color: white; /* Change the text color on hover */
+    }
+  }
+  
+
+
+  @media (max-width: 576px) {
+    .image-center {
+        margin-top: 2rem; /* Adjust margin for smaller devices */
+    }
+
+    .btn-brand-3 {
+        font-size: 14px; /* Decrease font size for smaller devices */
+        padding-left: 30px; /* Adjust padding for smaller devices */
+        padding-right: 30px; /* Adjust padding for smaller devices */
+    }
+
+    .btn-brand-3:hover {
+        font-size: 14px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Styles for extra small devices */
+    .section-2 {
+        height: auto;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .search-container {
+        width: 100%;
+        margin-left: 0;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    input#search-bar {
+        font-size: 0.8rem;
+        height: 40px;
+       
+    }
+
+    .search-icon {
+        width: 40px;
+        height: 40px;
+        top: -35px;
+        right: -20px;
+        margin-right: 15px;
+    }
+
+    .btn-brand-4 {
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 576px) {
+    .cammunity-text {
+      font-size: 18px;
+      margin-top: -30px;
+    }
+  }
+
+
+  @media only screen and (max-width: 480px) {
+   
+    .audio-tracks {
+        display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .audio-container {
+      margin-bottom: 10px;
+    }
+  
+    .audio-container img {
+      width: 100%;
+      height: auto;
+      margin-left: 0;
+    }
+  
+    .audio-control audio {
+      width: 100%;
+      height: 30px;
+      margin-left: 0;
+    }
+  }
+
+
+  @media only screen and (max-width: 480px) {
+    .btn-brand-5:hover {
+      margin-top: 20px;
+      font-size: 14px;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .section-3 {
+      height: auto;
+    }
+  
+    .mobile-sec {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .mobile-image {
+      margin-left: 0;
+      margin-top: 20px;
+      max-width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .never-stop {
+        font-size: 30px;
+    }
+
+    .hline {
+        width: 50px;
+    }
+
+    .xbox-one {
+        font-size: 22px;
+    }
+
+    .mobile-image-text {
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+}
+
+
+
+  @media only screen and (max-width: 480px) {
+    .section-4 {
+        height: auto;
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .calling-creators {
+        margin-left: 0;
+        padding-top: 30px;
+    }
+
+ 
+     
+     .calling-creators h2{
+        font-size: 15px;
+         
+         font-weight: 600;
+        
+     }
+     
+     .calling-creators p{
+         padding-top: 10px;
+         font-size: 9px;
+     }
+     
+     .calling-creators button{
+         margin-top: 5px;
+         font-size: 9px;
+         border-radius: 0;
+         color: white;
+         background-color: orangered;
+         padding-left: 5px;
+         padding-right: 5px;
+         padding-top: 3px;
+         padding-bottom: 3px;
+         margin-top: -5px;
+
+     }
+     
+
+    .sidhu-pic img {
+        margin-left: 0;
+        height: auto;
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    .section-5 {
+        height: auto;
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .Thanks-for-listing h2 {
+        padding-top: 20px;
+    }
+
+    .save-tracks {
+        font-size: 20px;
+    }
+
+    .alread-account {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .alread-account p {
+        margin-top: 10px;
+    }
+
+    .alread-account button {
+        margin-left: 0;
+        margin-top: 10px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    .footer-p-first,
+    .footer-p {
+        margin-top: 10px;
+        margin-left: 0;
+        font-size: 12px;
+    }
+
+    .footer-p-first:hover,
+    .footer-p:hover {
+        color: black;
+    }
+
+    .language {
+        margin-top: 0;
+    }
+
+    .language p,
+    .language span {
+        font-size: 12px;
+    }
+
+    .language span:hover {
+        color: black;
+    }
+}
