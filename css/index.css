@@ -709,7 +709,7 @@ cursor: pointer;
      }
      
      .calling-creators button{
-         margin-top: 5px;
+         margin-top: 0px;
          font-size: 9px;
          border-radius: 0;
          color: white;
@@ -718,7 +718,8 @@ cursor: pointer;
          padding-right: 5px;
          padding-top: 3px;
          padding-bottom: 3px;
-         margin-top: -5px;
+         margin-bottom: 10px;
+        
 
      }
      
