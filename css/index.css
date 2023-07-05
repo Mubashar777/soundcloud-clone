@@ -10,7 +10,7 @@ body{
 }
 
 .background-image{
-    background: url(/assets/hero_image.jpg);
+    background: url('/assets/hero_image.jpg');
     height: 73vh;
     width: 93%;
     margin-left: 3rem;
@@ -489,6 +489,7 @@ cursor: pointer;
     .navbar {
       margin-top: -25px; /* Reset the margin-top */
     }
+}
   
    
   
@@ -650,11 +651,11 @@ cursor: pointer;
       align-items: center;
     }
   
-    .mobile-image {
-      margin-left: 0;
+    .mobile-image img{
+      margin-left: -140px;
       margin-top: 20px;
-   
-      width: auto;
+   height: 200px;
+      width: 300px;
 
     }
   }
