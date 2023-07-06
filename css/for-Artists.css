@@ -262,3 +262,81 @@ padding-left: 10px;
        background-color: black;
       }
 }
+
+
+.section-3{
+    height: 100vh;
+    width: 100%;
+
+}
+
+.font-weight-bold-span{
+    font-weight: bold;
+}
+
+.get-paid-fairly h1{
+    font-weight: bold;
+}
+
+.get-paid-fairly{
+    margin-top: 90px;
+}
+
+.image-0{
+    margin-top: 65px;
+    margin-left: 25px;
+}
+
+
+.draw-line{
+    margin-top: 60px;
+ 
+    width: 90%;
+    height: 1px;
+    background-color:  rgb(0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 480px){
+    .image-0 img{
+        margin-top: -10px;
+      margin-left:-25px;
+    
+    }
+}
+
+.section-4{
+    height: 73vh;
+    width: 100%;
+    margin-top: 750px;
+   background-color:black
+}
+
+.image-potebaby img{
+margin-top: -50px;
+}
+
+
+.pote-baby-text{
+    font-weight: bold;
+}
+
+.pote-baby-margin{
+margin-top: 100px;
+margin-right: 40px;
+}
+
+
+@media screen and (max-width: 480px){
+    .section-4{
+        height: 100vh;
+        width: 120%;
+        margin-top: 70rem;
+       background-color:black
+    }
+
+    .image-potebaby img{
+        margin-top: 50px;
+        }
+}
