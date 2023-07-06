@@ -206,8 +206,8 @@ padding-left: 10px;
 
 
   .section-2{
-    height: 120vh;
-    width: 120%;
+    height: 100vh;
+    width: 100%;
    background-color: black;
   }
 
@@ -223,4 +223,25 @@ padding-left: 10px;
   }
 .billie-eilish{
     font-weight: bold;
+}
+
+.marquee-items{
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 576px){
+    
+  .section-2{
+    height: 105vh;
+    width: 120%;
+   background-color: black;
+  }
+
+  
+  .sidhu-round img{
+ 
+    border-radius: 50%;
+   margin-top: 80px;
+ 
+   }
 }
