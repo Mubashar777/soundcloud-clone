@@ -245,3 +245,11 @@ padding-left: 10px;
  
    }
 }
+
+@media screen and (max-width: 376px){
+    .section-2{
+        height: 120vh;
+        width: 120%;
+       background-color: black;
+      }
+}
