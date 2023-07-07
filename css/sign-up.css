@@ -80,12 +80,13 @@
     font-family: "Poppins", sans-serif;
   }
   .pass:hover a {
-    text-decoration: underline;
+    text-decoration: none;
   }
   .field input[type="submit"] {
-    background: #3498db;
-    border: 1px solid #2691d9;
+    background: orangered;
+    border: 1px solid orangered;
     color: white;
+    text-decoration: none;
     font-size: 18px;
     letter-spacing: 1px;
     font-weight: 600;
@@ -93,7 +94,7 @@
     font-family: "Montserrat", sans-serif;
   }
   .field input[type="submit"]:hover {
-    background: #2691d9;
+    background: orangered;
   }
   .login {
     color: white;
