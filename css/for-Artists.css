@@ -316,11 +316,13 @@ padding-left: 10px;
 
 .image-potebaby img{
 margin-top: -50px;
+padding-left: 40px;
 }
 
 
 .pote-baby-text{
     font-weight: bold;
+    
 }
 
 .pote-baby-margin{
@@ -438,6 +440,68 @@ margin-left: 15px;
 @media screen and (max-width: 480px){
     .section-6{
         height: 100vh;
+        width: 120%;
+        background-color: black;
+        margin-top: 100px;
+    }
+
+    .image-essky img{
+      
+   
+   
+       width: auto;
+       height: 400px;
+
+        }
+
+        .btn-brand-9{
+            font-weight: bold;
+            background-color: white;
+            padding-left: 75px;
+            padding-right: 75px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            margin-left: 75px;
+            margin-top: 50px;
+        }
+        
+        .btn-brand-9:hover{
+        margin-left: 75px;
+            font-weight: bold;
+            background-color: white;
+            padding-left: 75px;
+            padding-right: 75px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            margin-top: 50px;
+        }
+        
+        .btn-brand-10{
+            font-weight: bold;
+         margin-top: 15px;
+        margin-left: 75px;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+        }
+        
+        .btn-brand-10:hover{
+            margin-top: 15px;
+            font-weight: bold;
+            margin-left: 15px;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+        }
+
+
+}
+
+@media screen and (max-width: 480px){
+    .section-6{
+        height: 120vh;
         width: 120%;
         background-color: black;
         margin-top: 100px;
